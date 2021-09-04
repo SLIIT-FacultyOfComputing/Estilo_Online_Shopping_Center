@@ -33,7 +33,7 @@ const employeeRouter = require("./routes/employees.js");
 app.use("/employee",employeeRouter);
 
 app.listen(PORT, () => {
-    console.log(`Server is up and running on port number: ${PORT}`)
+    console.log(`Server is  running on port number: ${PORT}`)
 })
 
 
