@@ -3,7 +3,7 @@ const Posts = require('../models/posts');
 
 const router = express.Router();
 
-//save posts
+//save post
 
 router.post('/post/save',(req,res)=>{
 
